@@ -1,0 +1,13 @@
+# build output
+dist/
+build/
+*.spec
+__pycache__/
+*.pyc
+
+# printer log exports may contain account e-mail, serial numbers and passwords
+*.tar.gz
+*.tgz
+*.log
+*.db
+*.dat
