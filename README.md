@@ -3,6 +3,14 @@
 A desktop app for reading the log export of a Raise3D E3 printer
 (`all-raisetouch-<id>-<date>.tar.gz`, made on the printer under *Settings → Machine → Export logs*).
 
+> **Disclaimer:** This is an independent project. It is not affiliated with, endorsed by, or supported by
+> Raise3D Technologies. "Raise3D", "RaiseTouch" and "E3" are trademarks of their respective owner and are used here
+> only to describe which printer the tool works with. The app only reads log files exported by the user;
+> it contains no Raise3D software and does not connect to the printer or to any Raise3D service.
+>
+> The automatic findings are best guesses from the log data, not an official diagnosis. For safety-related problems
+> (overheating, firmware shutdowns) always have the printer checked by a qualified technician or Raise3D support.
+
 ## Starting it on a PC without Python (recommended for school PCs)
 
 1. Copy `dist\Raise3D-E3-Log-Viewer-Windows.zip` to the PC and unzip it (keep the whole folder: the `_internal` folder must stay next to the exe).

@@ -171,7 +171,13 @@ class App(tk.Tk):
         hm.add_command(label="How to use", command=self.show_help)
         hm.add_command(label="About", command=lambda: messagebox.showinfo(
             APP_TITLE, f"{APP_TITLE}\n\nVisualises the diagnostic log export of a Raise3D E3 printer "
-                       "(Settings → Machine → Export logs on the printer)."))
+                       "(Settings → Machine → Export logs on the printer).\n\n"
+                       "Independent project – not affiliated with, endorsed by, or supported by Raise3D "
+                       "Technologies. \"Raise3D\", \"RaiseTouch\" and \"E3\" are trademarks of their respective "
+                       "owner, used only to describe compatibility.\n\n"
+                       "Automatic findings are best guesses from the log data, not an official diagnosis. "
+                       "Have safety-related problems checked by a qualified technician or Raise3D support.\n\n"
+                       "MIT License – provided \"as is\", without warranty."))
         m.add_cascade(label="Help", menu=hm)
         self.config(menu=m)
         self.bind("<Control-o>", lambda e: self.ask_open_file())
